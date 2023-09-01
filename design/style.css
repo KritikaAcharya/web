@@ -28,7 +28,9 @@ border-top-left-radius: 2000px;
 border-top-right-radius: 2000px;
 background: #83A474;
 }
-
+.restro{
+   height: 700px;
+}
 img{
     width: 100vw;
 }
@@ -62,6 +64,55 @@ top: 750px;
 
 background: url(fodie4.png);
 transform: rotate(-116.43deg);
+}
+.foodthree{
+    position: absolute;
+width: 300px;
+height: 300px;
+left: 1200px;
+top: 1200px;
+
+background: url(fodie5.png);
+transform: rotate(-116.43deg);
+}
+.navi_one li{
+    float: left;
+    list-style: none;
+    font-family: 'IM Fell Great Primer SC', serif;
+    font-weight: bold;
+}
+.navi_one li a{
+    text-decoration: none;
+    padding: 30px 30px;
+    color: #000000;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'IM Fell Great Primer SC', serif;
+}
+.heading{
+    text-transform: uppercase;
+    position: absolute;
+width: 829px;
+height: 149px;
+left: calc(50% - 829px/2);
+top: 48px;
+
+font-family: 'IM FELL Great Primer SC';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 117px;
+text-align: center;
+color: #000000;
+font-family: 'IM Fell Great Primer SC', serif;
+
+}
+.islogo{
+    position: absolute;
+width: 248px;
+height: 231px;
+left: 160px;
+top: 48px;
 }
 .quote{
     position: absolute;
