@@ -55,7 +55,7 @@ body {
 }
 
 .hero-name {
-    font-size: 4rem;
+    font-size: 5rem;
     color: #42b883;
     font-weight: 300;
     line-height: 1.2;
@@ -65,7 +65,7 @@ body {
 
 .hero-description {
     color: #666;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     line-height: 1.6;
     margin-bottom: 2rem;
     max-width: 400px;
@@ -78,7 +78,7 @@ body {
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 1.5rem;
     transition: background-color 0.3s ease;
 }
 
@@ -114,7 +114,7 @@ body {
 }
 
 .about h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #333;
     margin-bottom: 1.5rem;
     font-weight: 500;
