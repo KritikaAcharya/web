@@ -2,33 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- this is used for creating a theme colour in the background! -->
-    <!-- meta tag is something that is simply used to show how your link is displayed in the browser -->
-    <!-- 'Cinzel Decorative', cursive; -->
-    <meta name="theme-color" content="#4285f4" />
-    <meta namr="description" content="Kits and cosmo is a restro where love is in every bite you take."/>
-    <title>kitkat and cosmo</title>
-    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=IM+Fell+Great+Primer+SC&display=swap" rel="stylesheet">
-    <link rel="icon" href="./images/titlepic.png">
-    <link rel="stylesheet" href="./design/style.css">
-    <script src="./jsfile/jsss.js"></script>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/design/style.css">
 </head>
 <body>
-    <div class="background_circle_one"></div>
-    <div class="background_circle_two"></div>
-    
-    <div class="heading">ur my pumpkin pumpkin hello honey bunny hehe :)</div>
-   
-    </div>
-    <div class="quote">“ people who love to eat are always the best people. "</div>
-    <div class="circleline"></div>
-    <img src="images/fodie1.png" alt="food_one" class="foodone">
-    <img src="images/fodie2.png" alt="food_two" class="foodtwo">
-    <img src="images/fodie3.png" alt="food__three" class="foodthree">
-    
-    
+    <nav class="navbar">
+        <a href="#" class="logo">.WPFolio</a>
+        <div class="menu-icon">☰</div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-name">Michael<br>Smith</h1>
+            <p class="hero-description">A freelance product designer by day, and digital marketer by night. My name is Michael Smith, and this is my portfolio.</p>
+            <a href="#" class="cta-button">View My Work</a>
+        </div>
+        <div class="hero-image">
+            <img src="/picture/mypic.png" alt="Profile Image">
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>About Michael.</h2>
+        <p>With more than 10 years of professional experience under his belt, Michael Smith is a product designer and digital marketer. He has helped hundreds of startups and large enterprises with his innovative product design and marketing strategies to promote them.</p>
+    </section>
+
+    <section class="services">
+        <div class="service-card">
+            <svg class="service-icon" viewBox="0 0 24 24" fill="#006d77">
+                <path d="M21 14h-6.5l2.5 3H14l-2.5 3H9l-2.5-3H3.5l2.5-3H0v-2l6.5-8h11l3.5 8v2zm-10 2h2.5l-2.5 3H8.5l2.5-3zm5-2h2.5l-2.5 3H13.5l2.5-3z"/>
+            </svg>
+            <h3>Web Design</h3>
+            <p>Creating beautiful and functional websites that help businesses grow and succeed online.</p>
+        </div>
+        <div class="service-card">
+            <svg class="service-icon" viewBox="0 0 24 24" fill="#006d77">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+            </svg>
+            <h3>SEO Marketing</h3>
+            <p>Optimizing your online presence for better visibility and organic growth.</p>
+        </div>
+        <div class="service-card">
+            <svg class="service-icon" viewBox="0 0 24 24" fill="#006d77">
+                <path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4zM14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2z"/>
+            </svg>
+            <h3>Video Editing</h3>
+            <p>Professional video editing services to help you tell your story effectively.</p>
+        </div>
+    </section>
+
+    <script src="/jsfile/script.js"></script>
 </body>
 </html>
